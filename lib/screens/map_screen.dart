@@ -11,11 +11,11 @@ class MapScreen extends StatelessWidget {
           // Background image
           Positioned.fill(
             child: Image.asset(
-              'assets/Screenshot_6.png', // Replace with your image path
-              fit: BoxFit.cover, // Ensures the image covers the entire screen
+              'assets/Screenshot_6.png', 
+              fit: BoxFit.cover, 
             ),
           ),
-          // Content on top of the background
+          
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
